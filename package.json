@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start" : "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VINHTRAN-VICIDEV/deploy-nodejs.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VINHTRAN-VICIDEV/deploy-nodejs/issues"
+  },
+  "homepage": "https://github.com/VINHTRAN-VICIDEV/deploy-nodejs#readme",
   "dependencies": {
-    "expess": "^0.0.1-security",
     "express": "^4.18.1",
     "nodemon": "^2.0.19"
   }
