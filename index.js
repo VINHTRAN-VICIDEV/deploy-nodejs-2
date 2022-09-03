@@ -6,7 +6,7 @@ app.get("/", (req, res)=>{
     res.send("hello world")
 })
 
-
-app.listen(3000, ()=>{
-    console.log("your server is runing in port 3000")
+const port = process.env.port || 3000
+app.listen(port, ()=>{
+    console.log(`your server is runing in ${port} 3000`)
 })
